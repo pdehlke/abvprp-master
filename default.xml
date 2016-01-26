@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="assembla"
-           fetch="git@git.assembla.com:aboveproperty." />
+           fetch="git@git.assembla.com:" />
 
   <default revision="default"
            remote="assembla"
            sync-j="4" />
 
-  <project name="java" remote="assembla" path="java"/>
-  <project name="reports" remote="assembla" path="reports"/>
-  <project name="ux-pcc" remote="assembla" path="ux-pcc"/>
-  <project name="war" remote="assembla" path="war"/>
+  <project name="aboveproperty.java" remote="assembla" path="java"/>
+  <project name="aboveproperty.reports" remote="assembla" path="reports"/>
+  <project name="aboveproperty.ux-pcc" remote="assembla" path="ux-pcc"/>
+  <project name="aboveproperty.war" remote="assembla" path="war"/>
 
 </manifest>
