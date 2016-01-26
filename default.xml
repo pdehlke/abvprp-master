@@ -2,14 +2,16 @@
 <manifest>
   <remote  name="assembla"
            fetch="git@git.assembla.com:" />
+         <remote name="gh" fetch="https://github.com/pdehlke" />
 
   <default revision="default"
            remote="assembla"
            sync-j="4" />
-
+         <!--
   <project name="aboveproperty.java" remote="assembla" path="java"/>
   <project name="aboveproperty.reports" remote="assembla" path="reports"/>
   <project name="aboveproperty.ux-pcc" remote="assembla" path="ux-pcc"/>
   <project name="aboveproperty.war" remote="assembla" path="war"/>
-
+-->
+<project name="dotfiles" remote="gh" path="dotfiles" />
 </manifest>
